@@ -1,0 +1,383 @@
+@media (min-width: 1400px){
+  .graph-bar{
+    margin-right: 10em;
+  }
+
+  .cicrle-container{
+    display: inline-block;
+  }
+
+  .job-links{
+    width: 90%;
+    margin: auto;
+  }
+
+  .link-box{
+    width: 100%;
+    padding: 1em;
+    margin: 2em 0 1em 0;
+
+  }
+
+  .copy-btn{
+    width: 100%;
+    padding: 1em;
+    margin: 2em 0 1em 0;
+  }
+
+  h2{
+    margin:1em 0 1em 0;
+  }
+  .link-copy-wrap{
+    width: 100%;
+  }
+}
+
+@media (max-width: 1400px){
+
+  .graph-bar{
+    display: block;
+    float: left;
+    width: 350px;
+    margin-left: 29%;
+  }
+
+  .bottom-of-graph-section{
+    clear: both;
+    display: inline-block;
+    width: 80%;
+  }
+
+  .arrow-up-img{
+    margin-left: 2em;
+  }
+
+  .cicrle-container{
+    margin-left: 35%;
+  }
+
+  .bottom-of-graph-section{
+    margin-left: 2%;
+  }
+}
+
+@media (max-width: 1300px){
+
+  .graph-bar{
+    display: block;
+    float: left;
+    width: 350px;
+    margin-left: 27%;
+  }
+
+  .bottom-of-graph-section{
+    clear: both;
+    display: inline-block;
+    width: 80%;
+  }
+
+  .arrow-up-img{
+    margin-left: 1.75em;
+  }
+
+  .cicrle-container{
+    margin-left: 33%;
+  }
+
+  .bottom-of-graph-section{
+    margin-left: 2%;
+  }
+}
+
+@media (max-width: 1200px){
+
+  .graph-bar{
+    display: block;
+    float: left;
+    width: 350px;
+    margin-left: 26%;
+  }
+
+  .bottom-of-graph-section{
+    clear: both;
+    display: inline-block;
+    width: 80%;
+  }
+
+  .arrow-up-img{
+    margin-left: 1.5em;
+  }
+
+  .cicrle-container{
+    margin-left: 30%;
+  }
+
+  .bottom-of-graph-section{
+    margin-left: 2%;
+  }
+}
+
+@media (max-width: 1020px){
+  aside{
+    visibility: hidden;
+    clear: both;
+  }
+  header{
+    width: 100%;
+  }
+  .bottom-of-graph-section{
+    clear: both;
+    display: inline-block;
+    position: relative;
+    top: -150px;
+    left: -80px;
+    width: 80%;
+  }
+
+  .graph-bar{
+    display: inline-block;
+    position: relative;
+    top: -167px;
+    left: 180px;
+    width: 350px;
+    margin-right: 1em;
+  }
+
+  .cicrle-container{
+    display: inline-block;
+    position: relative;
+    left: -100px;
+    top: 10px;
+    margin-left: .5em;
+  }
+
+  .graph{
+    margin: .5em;
+
+  }
+
+  .dls{
+    position: relative;
+    top: -160px;
+    left: -140px;
+    width: 75%;
+  }
+
+  .right-side{
+    position: relative;
+    top: -780px;
+  }
+}
+
+@media (max-width: 900px){
+  .right-circle-icons-div{
+    visibility: hidden;
+  }
+
+  .squshy-settings{
+    visibility: visible;
+    margin-top: 2em;
+    margin-right: 2em;
+  }
+
+  .dls{
+    position: relative;
+    top: 20px;
+    left: -110px;
+  }
+
+  .right-side{
+    position: relative;
+    top: -600px;
+  }
+  .cicrle-container{
+    position: relative;
+    left: 10px;
+    top: 10px;
+  }
+
+  .bottom-of-graph-section{
+    position: relative;
+    top: 50px;
+    left: -90px;
+  }
+
+  .graph-bar{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: -145px;
+  }
+
+  .arrow-up-img{
+    margin-left: .75em;
+  }
+}
+
+@media (max-width: 770px){
+  .right-circle-icons-div{
+    visibility: hidden;
+  }
+
+  .squshy-settings{
+    float: right;
+    display: inline-block;
+    visibility: visible;
+    margin-top: 2em;
+    margin-right: 2em;
+  }
+
+  ul{
+    visibility: hidden;
+  }
+
+  .squish-nav{
+    visibility: visible;
+  }
+
+  .squish-nav:hover{
+    color: #16a3f7;
+  }
+
+  .down-arrow{
+    padding-left: 1em;
+  }
+
+  .right-side{
+  visibility: hidden;
+  }
+
+  .dls{
+    width: 85%;
+    position: relative;
+    left: -90px;
+  }
+}
+
+@media (max-width: 630px)
+{
+  .cicrle-container{
+    position: relative;
+    left: -40px;
+  }
+
+  .bar-graph{
+    position: static;
+    margin: auto;
+  }
+
+  .dls{
+    position: relative;
+    left: -50px;
+  }
+}
+
+@media (max-width: 620px)
+{
+  .cicrle-container{
+    position: absolute;
+    left: 10px;
+    top:  250px;
+  }
+
+  .bar-graph{
+    position: absolute;
+    top:-925px;
+    left:80px;
+  }
+
+  .bottom-of-graph-section{
+    visibility: hidden;
+    position: absolute;
+    left: 10px;
+    top: 300px;
+    width:60%;
+  }
+
+  .dls{
+    position: absolute;
+    left: 20px;
+    top: 600px;
+  }
+}
+
+@media (max-width: 510px){
+  body{
+    overflow-x: hidden;
+  }
+  .right-circle-icons-div{
+    visibility: hidden;
+  }
+
+.graph{
+  display: block;
+  font-size: 150%
+}
+.cicrle-container{
+  position: absolute;
+  top:265px;
+  left:100px;
+}
+
+.dls{
+  position: absolute;
+  left: 20px;
+  top: 1100px;
+}
+.bar-graph{
+  position: absolute;
+  top:-430px;
+  left:80px;
+}
+}
+
+@media (max-width: 390px){
+  .edit-icon{
+    visibility: hidden;
+  }
+
+  header{
+    width: 100%;
+  }
+  .cicrle-container{
+    position: absolute;
+    top:320px;
+    left:45px;
+  }
+
+  .dls{
+    position: absolute;
+    left: 20px;
+    top: 1150px;
+  }
+  .bar-graph{
+    width: 275px;
+  }
+  dd,
+  dt,
+  .description{
+    display: inline-block;
+    padding-left: 5px;
+    margin-left: 5px;
+  }
+
+  .description{
+    position: relative;
+    left: -4px;
+  }
+
+  .hiring{
+    margin-left: .2em;
+  }
+
+  .status{
+    margin-left: 3em;
+  }
+
+  .customer-service,
+  .location,
+  .experience{
+    padding-left: 0;
+    margin-left: .25em;
+  }
+}
